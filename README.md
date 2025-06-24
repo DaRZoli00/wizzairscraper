@@ -33,3 +33,11 @@ docker build -t wizzscraper .
 ```bash
 docker run --rm wizzscraper
 ```
+
+## Docker Compose
+
+Az egyszerűbb futtatáshoz használhatod a mellékelt `docker-compose.yaml` fájlt.
+
+```bash
+docker compose up --build
+```

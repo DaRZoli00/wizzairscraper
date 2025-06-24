@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  scraper:
+    build: .
+    image: wizzscraper
+    container_name: wizzscraper
+    command: python wizz_scrape.py
