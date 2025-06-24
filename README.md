@@ -19,3 +19,17 @@ python wizz_scrape.py
 ```
 
 Az eredmények egy SQLite adatbázisba (`wizzair.db`) kerülnek.
+
+## Docker
+
+1. Építsd fel a konténert:
+
+```bash
+docker build -t wizzscraper .
+```
+
+2. Futtasd a programot konténerben:
+
+```bash
+docker run --rm wizzscraper
+```
